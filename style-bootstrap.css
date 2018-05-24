@@ -1,0 +1,53 @@
+.container {
+    position: relative;
+    text-align: center;
+	font-size:20px;
+	background-color:white;
+}
+.navbar{
+margin-bottom:0px;
+
+}
+.img_styling{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	font-size:30px;
+}
+
+.outer-row{
+margin-top:15px;
+display:flex;
+}
+.f1{
+background-color:#D3D3D3;
+max-width:300px;
+
+}
+#b1{
+background-color:dodgerblue;
+border-radius:25px;
+color:white;
+font-size:15px;
+}
+#b2{
+background-color:dodgerblue;
+border-radius:25px;
+color:white;
+font-size:15px;
+}
+#buy{
+background-color:dodgerblue;
+border-radius:25px;
+color:white;
+font-size:15px;
+}
+.l1{
+font-size:12px;
+}
+.caption{
+font-size:12px;
+padding:0px;
+marging-bottom:0px;
+}

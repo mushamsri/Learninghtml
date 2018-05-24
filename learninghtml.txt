@@ -1,0 +1,129 @@
+1.Transitions
+
+===>>hover ---used to point the mouse
+
+===>>focus ---point it when the mouse is clicked
+ 
+
+===>>transition: width 2s(the transition width should be increased til 2seconds)
+
+===>>transition-delay/transition-duration:(both have same properties)
+wait for the time alloted then it starts
+time:
+initial: with in the div if h1 & p are mentioned then we can make some changes 
+to the particular element lkike p or h1
+inherit: It inherits the parent properties.
+
+===>>transition-timing-function:
+transition-timing-function: linear|ease|ease-in|ease-out|ease-in-out|step-start|step-end|
+steps(int,start|end)|cubic-bezier(n,n,n,n)|initial|inherit;
+Transition effect with the same speed from start to end
+
+2.Application caching:
+the web app is cached and used wen offline
+
+===>>Application cache gives an application three advantages:
+
+Offline browsing - users can use the application when they're offline
+Speed - cached resources load faster
+Reduced server load - the browser will only download 
+updated/changed resources from the server
+
+To include cache in html
+<html manifest="demo_html.appcache">
+
+
+cache
+CACHE MANIFEST 
+NETWORK: 
+/checking.cgi
+CACHE:
+/test.css
+/test.js
+/test.png
+
+3.local storage:
+the pages that are visited will be stored for a long period of time
+
+session storage:
+If the tab is closed then the storage gets cleared
+
+4.Article:
+The <article> tag specifies independent, self-contained content
+Potential sources for the <article> element:
+Forum post
+Blog post
+News story
+Comment
+
+5.aside:
+The <aside> tag defines some content aside from the content it is placed in.
+
+
+6.Header:
+contains a set of navigational links
+has 1 or more heading elements
+logo or icon
+author info
+
+7.Footer:
+It contains author info
+copyright info
+contact info
+sitemap'back to top links
+related documents
+
+8.nav:
+defines a set of navigational links
+
+
+9.video:
+Used to embed a video
+<video controls>
+  <source src="rabbit320.mp4" type="video/mp4">
+  <source src="rabbit320.webm" type="video/webm">
+  <p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.mp4">link to the video</a> instead.</p>
+</video>
+
+
+10.audio:
+used to embed an audio
+
+11.form validation:(to get red dashed border when the input is invalid)
+
+<form>
+  <label for="choose">Would you prefer a banana or cherry?</label>
+  <input id="choose" name="i_like" required>
+  <button>Submit</button>
+</form>
+
+input:invalid {
+  border: 2px dashed red; //if invalid then red border
+}
+
+input:valid {
+  border: 2px solid black;
+}
+
+12.input:
+Used to accept the data from the user.
+should and must have the name attribute inorder to submit the result
+legend tag is used to fix the heading within the fieldset specified
+selected keyword is used to select a particular element in drop down list
+multiple key word is used to select multiple values from the list
+
+13.output:
+result of a calculation/ outcome of user action 
+
+14.canvas:
+used to draw graphics/animations
+
+15.forms
+action-->what to do when submit is clicked
+target-->(_self),(_blank) to open the page in same or other window
+method-->post/get(get- for non securr data,post- for secure data),
+	form submissions with post cannot be bookmarked
+
+
+
+

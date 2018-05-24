@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+header, footer {
+    
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+@media screen and (orientation:portrait) {
+
+  body {
+    
+    transform: rotate(-90deg);
+    overflow: scroll;
+  }
+}
+.image {
+    background-color: grey;
+}
+div > p {
+   text-decoration: underline;
+   color: red;
+}
+div+p {
+   font-style: calibri;
+   font-color: green;
+}
+#heading {
+    color: grey;
+}
+h2 {
+   font-style: italic;
+}
+table td {
+   font-style: italic;
+   font-weight: bold;
+}
+</style>
+</head>
+<body>
+<header><h1 id="heading">BRAND FACTORY</h1></header>
+<form class="image" action="www.google.com" autocomplete="on">
+<table align= "center">
+<h2><center>Registration Form</center></h2>
+
+<tr>
+<td>
+<div>
+<p>Enter the details to register for a product</p>
+</div>
+<p>
+</td>
+
+<td>
+<div>
+<span><p>please enter the mandatory fields</p></span>
+</div>
+</td>
+</tr>
+
+<tr>
+<td>Name:</td> <td><input type="text" placeholder="Enter your name" autofocus/></td>
+</tr>
+
+<tr>
+<td>Email:</td> <td><input type="email" placeholder="example@gmail.com"/></td>
+</tr>
+
+<tr>
+<td>Phone number:</td> <td><input type="number" placeholder="8888888888"/></td>
+</tr>
+
+<tr>
+<td>Telephone number</td>
+<td><input type="tel" name="telnum"/></td>
+</tr>
+
+<tr>
+<td>Address:</td> <td><textarea></textarea></td>
+</tr>
+
+<tr>
+<td>Email:</td> <td><input type="email" placeholder="example@gmail.com"/></td>
+</tr>
+
+<tr>
+<td>week</td>
+<td><input type="week" name="days"/></td>
+</tr>
+
+<tr>
+<td>month</td><td><input type="month" name="months"/></td>
+</tr>
+
+<tr>
+<td>Date</td> <td><input type="date" name="date"/></td>
+</tr>
+
+<tr>
+<td>DateTime</td>
+<td><input type="datetime-local" name="date"/></td>
+</tr>
+
+<tr>
+<td>Gender</td> <td><input type="radio" name="gender" value="male"/>Male<br>
+<input type="radio" name="gender" value="male"/>Female<br>
+<input type="radio" name="gender" value="male"/>Other</td>
+</tr><br>
+
+<tr>
+<td>select your favourite color:</td>
+<td><input type="color" value="#ff0000"></td>
+</tr>
+
+<tr>
+<td>Select the range</td>
+<td><input type="range" name="cost"/></td>
+</tr>
+
+<tr>
+<td>Search for the brand</td>
+<td><input type="search" name="find"/></td>
+</tr>
+
+<tr>
+<td>Brand</td>
+<td><input type="checkbox" value="brands" name="shirt"/>Flying machine<br>
+<input type="checkbox" value="brands" name="shirt"/>Buffalo
+</td>
+</tr>
+
+<tr>
+<td>Choose payment option</td>
+<td><select><option value="debitcard">Debit card</option>
+<option value="creditcard">Credit card</option>
+<option value="visa">Visa</option>
+</select>
+</tr>
+
+<tr>
+<td>Image:</td>
+<td><input type="file" name="files"/></td>
+</tr><br>
+
+<tr>
+<td>Redirect to this URL</td>
+<td><input type="url" value="http://www.brandfactoryonline.com/"/></td>
+</tr>
+
+<tr>
+<td><input type="button" value="Submit">
+<input type="reset" value="clear">
+</td>
+</tr>
+
+ </table>
+</form>
+</body>
+<footer>copyright</footer>
+
+</html>
